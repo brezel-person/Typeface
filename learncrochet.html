@@ -1,40 +1,62 @@
 <head>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body class="blue-page">
     <div class="right-button">
         <button id="home_btn" class="pink-button">Back</button>
     </div>
     <h1 class="article"> How can YOU learn to crochet (better)? </h1>
-    <h3 class="article"> If you are a beginner...</h3>
-    <p class="article">
-        As a beginner, you are just getting started on your journey of crochet! 
-        Watching simple online tutorials, especially video or image based ones, will help you improve.
-        You can also look to see if there are any crochet clubs in your community, or if anyone you know
-        could teach you. In-person instruction is a very big help! <br>
-        It's recommended to start with easier projects, so if you've never crocheted before, try starting with granny 
-        squares and 2D patterns like scarves. Familiarize yourself with crochet terminology. Once you go through a couple of projects,
-        making advanced crochet will be MUCH easier and faster.
-    </p>
-    <img class="articleImg" src="images/beg_crochet.png" alt="Beginner crochet stitches">
-    <p class="sub">Credit: Bastique on Wikimedia Commons</p>
-    <h3 class="article"> If you are intermediate...</h3>
-    <p class="article">
+
+    
+
+    <nav id="learn-crochet-Navbar" class="navbar pink-page px-3 mb-3">
+        <a class="navbar-brand magentaTxt" href="#">Navigation!</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item pink-page">
+                <a class="nav-link magentaTxt" href="#scrollspyHeading1">Beginner</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link magentaTxt" href="#scrollspyHeading2">Intermediate</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link magentaTxt" href="#scrollspyHeading3">Advanced</a>
+            </li>
+        </ul>
+    </li>
+    </ul>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#learn-crochet-Navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example blue-page p-3 rounded-2" tabindex="0">
+        <h3 id="scrollspyHeading1" class="article"> If you are a beginner...</h3>
+        <p class="article">
+            As a beginner, you are just getting started on your journey of crochet! Watching simple online tutorials, especially video or image based ones, will help you improve.
+            You can also look to see if there are any crochet clubs in your community, or if anyone you know could teach you. In-person instruction is a very big help! <br>
+            It's recommended to start with easier projects, so if you've never crocheted before, try starting with granny 
+            squares and 2D patterns like scarves. Familiarize yourself with crochet terminology. Once you go through a couple of projects,
+            making advanced crochet will be MUCH easier and faster.
+        </p>
+        <img class="articleImg" src="images/beg_crochet.png" alt="Beginner crochet stitches">
+        <p class="sub">Credit: Bastique on Wikimedia Commons</p>
+        <h3 id="scrollspyHeading2" class="article"> If you are intermediate...</h3>
+        <p class="article">
         As an intermediate crocheter, you already have a couple of projects under your hook. (ha, ha. not funny ik)
         You can improve by picking incrementally more challenging projects, like complex amigurumi. Or, perfect you yarn tension and
         speed (and patience) by making larger projects. <br>
         Remember to have lots of fun with it!
-    </p>
-    <img class="articleImg" src="images/interm_crochet.jpg" alt="Big crochet project">
-    <p class="sub">Credit: Sudzie on Wikimedia Commons</p>
+        </p>
+        <img class="articleImg" src="images/interm_crochet.jpg" alt="Big crochet project">
+        <p class="sub">Credit: Sudzie on Wikimedia Commons</p>
 
-    <h3 class="article"> If you are advanced...</h3>
-    <p class="article">
+        <h3 id="scrollspyHeading3" class="article"> If you are advanced...</h3>
+        <p class="article">
         Try some difficult crochet projects or challenges! Remember to give back to the community while you're at it. 
         Take a new crocheter under your wing, maybe start a crochet club, and share the fun with others! You've come a long way!
-    </p>
-    <img class="articleImg" src="images/adv_crochet.jpg" alt="Crochet project around a tree">
-    <p class="sub">Credit: Albarubescens on Wikimedia Commons</p>
+        </p>
+        <img class="articleImg" src="images/adv_crochet.jpg" alt="Crochet project around a tree">
+        <p class="sub">Credit: Albarubescens on Wikimedia Commons</p>
+    </div>
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>

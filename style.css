@@ -38,6 +38,11 @@ p.magentaTxt{
     font-size: 20pt;
 }
 
+a.magentaTxt{
+    color: darkmagenta;
+    font-family: "easy-font", serif;
+}
+
 
 h1.blueTxt{
     color:royalblue;
@@ -63,9 +68,12 @@ p.redTxt{
     font-size: 20pt;
 }
 
+
+
+
+
+
 /* ****** Homepage specific styling ****** */
-
-
 
 .main {
     color: darkmagenta;
@@ -123,7 +131,11 @@ p.main{
     text-align: center;
 }
 
+
+
+
 /* ****** Seasonal crochet page-specific styling! ***** */
+
 h1.seasonalTxt{
     text-align: center;
     color: royalblue;
@@ -151,11 +163,51 @@ h1.seasonalTxt{
 }
 
 
+
+
+
 /* ****** Friendly quiz page-specific styling! ***** */
 .pink-page{
     background-color:lightpink;
 }
 
+h1.q{
+    font-family: "easy-font", serif;
+    color:darkmagenta;
+    font-size: 25pt;
+    text-align: center;
+}
+
+.qBtn{
+    font-family: "friendly-font", serif;
+    font-size: 20pt;
+    color:royalblue;
+    background-color:skyblue;
+    border-radius: 8px;
+    margin: 5px 10px;
+}
+
+.quizAnsImg{
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+h3.project{
+    font-family: "easy-font", serif;
+    text-align: center;
+    color:darkmagenta;
+    margin-left: 20px;
+    font-size: 25pt;
+}
+
+p.project{
+    font-family: "easy-font", serif;
+    color:darkmagenta;
+    margin-left: 20px;
+    font-size: 20pt;
+}
 
 .modal-footer.pink-page {
     background-color: lightpink;

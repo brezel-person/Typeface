@@ -6,6 +6,8 @@ const scarybtn = document.getElementById("scary_btn");
 const homebtn = document.getElementById("home_btn");
 let quizNum;
 
+
+/* Home Page & back to home page functionality */
 if(homebtn){
     homebtn.addEventListener("click", function(){
         window.location.href="main.html";
@@ -30,6 +32,8 @@ if(btn1){
     });
 }
 
+
+/* "should i crochet" functions & code */
 $(document).ready(function(){
     var handsOnHobbyPopUp = new bootstrap.Modal($('#handsOnHobbyPopUp')[0]);
 
@@ -60,3 +64,4 @@ $(document).ready(function(){
     $('#beware-btn').click(() => crochetQuizPopUp.show());
 });
 
+/* "what to crochet" quiz functionality */

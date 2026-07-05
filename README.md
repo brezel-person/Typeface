@@ -20,6 +20,8 @@ It took me a while but eventually I got everything in place and was able to get 
 I worked a little on my scary quiz page because I thought I would use the accordions for that, but I ended up changing my mind and using them for the seasonal crochet ideas page, I found the Popover feature in Bootstrap 
 and I think it may fit better with the scary quiz. Also added a button with a modal to the "scary quiz" page during this time.
 
+9:30 - x hour: added and customized Navigation bar (scrollspy) from the Bootstrap library to the learn crochet page, to make it easier to find an article fitting the user's crochet level. Figured out how to structure my "what to crochet" quiz, set up the questions, answers, figured out how to use container, styled everything with CSS. 
+
 What I've learned:
 - how to use CSS, HTML, JS together (I took some CS classes in school some time ago involving them in isolation, but I re-learned the syntax and learned for the first time how to use them/connect them with each other) 
 - learned how to apply a library - bootstrap - to my project
