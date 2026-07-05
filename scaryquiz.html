@@ -1,5 +1,6 @@
 <head>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body class="scary-page">
@@ -7,6 +8,36 @@
     <div class="right-button">
         <button id="home_btn" class="scary-buttonB">Leave Quiz</button>
     </div>
+    <h1 class="scaryTxt"> The Crochet Quiz </h1>
+    <p class="scaryTxt">Once Upon A Time, three young crocheters entered the crochet quiz. Only 1 and 2/3 came back... 
+        The locals claim 1 and 1/3 of their ghost haunts the quiz to this very day. It whispers in the corners at night, urging you to,  </p>
+    
+    
+    <div class="modal fade" id="crochetQuizPopUp" tabindex="-1" aria-labelledby="crochetQuizPopUpLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header blue-page">
+                    <h1 class="blueTxt modal-title fs-5" id="crochetQuizPopUpLabel">!! Just a friendly reminder !! </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body blue-page">
+                    <p class="blueText"> Remember, the crochet quiz isn't real -- it can't hurt you! </p>
+                </div>
+                <div class="modal-footer blue-page">
+                    <button type="button" class="pink-button" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="center-button">
+        <button id="beware-btn" class="scary-buttonA"> "Beware!!!" </button>
+    </div>
+
+    <br> <br>
+    <p class="scaryTxt"> Now, onto the quiz. </p>
+     
+
     <script src="script.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>

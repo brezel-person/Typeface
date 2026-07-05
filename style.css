@@ -123,9 +123,32 @@ p.main{
     text-align: center;
 }
 
+/* ****** Seasonal crochet page-specific styling! ***** */
+h1.seasonalTxt{
+    text-align: center;
+    color: royalblue;
+    font-family: "friendly-font", serif;
+}
 
+.accordion-button{
+    background-color:lightpink !important;
+    color: darkmagenta !important;
+    font-family: "friendly-font", serif;
 
+}
 
+.accordion-button:not(.collapsed){
+    font-family: "easy-font", serif;
+    background-color: darkmagenta !important;
+    color:lightpink !important;
+
+}
+
+.accordion-body{
+    color:lightpink !important;
+    background-color: darkmagenta !important;
+    font-family: "easy-font", serif;
+}
 
 
 /* ****** Friendly quiz page-specific styling! ***** */
@@ -173,18 +196,40 @@ p.main{
 }
 
 .scary-buttonA{
-    font-family: "scary-font";
+    font-family: "scary-font", serif;
     color: black;
     background-color: red;
+    font-size: 34pt;
+    text-align: center;
 }
 .scary-buttonB{
-    font-family: "scary-font";
+    font-family: "scary-font", serif;
     font-size: 30pt;
     color:crimson;
     background-color: whitesmoke;
 }
 
+h1.scaryTxt{
+    font-family: "scary-font", serif;
+    color: red;
+    font-size: 50pt;
+    text-align: center;
+}
 
+h3.scaryTxt{
+    font-family: "scary-font", serif;
+    color: red;
+    font-size: 30pt;
+    text-align: center;
+}
+
+p.scaryTxt{
+    display: block;
+    font-family: "scary-font", serif;
+    color: red;
+    font-size: 25pt;
+    margin: 0 10%;
+}
 
 
 /* ****** Article Pages specifics (info and learn crochet) ***** */

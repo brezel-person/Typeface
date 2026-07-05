@@ -14,7 +14,7 @@ if(homebtn){
 
 if(btn1){
     btn1.addEventListener("click", function(){
-        window.location.href= "quiz.html?quiz=1";
+        window.location.href= "quiz.html";
     });
     btn2.addEventListener("click", function(){
         window.location.href= "info.html";
@@ -23,7 +23,7 @@ if(btn1){
         window.location.href= "learncrochet.html";
     });
     btn4.addEventListener("click", function(){
-        window.location.href= "quiz.html?quiz=2";
+        window.location.href= "seasonal.html";
     });
     scarybtn.addEventListener("click", function(){
         window.location.href= "scaryquiz.html";
@@ -53,3 +53,10 @@ $(document).ready(function(){
     $('#activity-no').click(() => nopePopUp.show());
     $('#patient-no').click(() => nopePopUp.show());
 });
+
+$(document).ready(function(){
+    var crochetQuizPopUp = new bootstrap.Modal($('#crochetQuizPopUp')[0]);
+    
+    $('#beware-btn').click(() => crochetQuizPopUp.show());
+});
+
