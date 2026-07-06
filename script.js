@@ -64,4 +64,106 @@ $(document).ready(function(){
     $('#beware-btn').click(() => crochetQuizPopUp.show());
 });
 
-/* "what to crochet" quiz functionality */
+
+
+/* ********** "what to crochet" quiz functionality ********** */
+
+/* Answers + results */
+let answers = {
+    level:"",
+    category:""
+};
+
+const results = {
+    beginner:{
+        cute:{
+            title:"Cat-Ears Beanie",
+            desc:"Crochet an adorable cat-ears beanie! It's a simple yet stylish beginner pattern.",
+        },
+        spooky:{
+            title:"Spiderweb Coasters",
+            desc:"Crochet a very spooky spiderweb coaster to put under your drinks!",
+        },
+        both:{
+            title:"Themed Bookmark",
+            desc:"Crochet a spooky yet cute bookmark! You can make it candy corn, ghost, or zombie themed!",
+        }
+    },
+    intermediate:{
+        cute:{
+            title:"Avocada Amigurumi",
+            desc:"Crochet an adorable avocado plushie or pillow!"
+        },
+        spooky:{
+            title:"Zombie Amigurumi",
+            desc:"Crochet a very spooky zombie!",
+        },
+        both:{
+            title:"",
+            desc:"Crochet a spooky yet cute  ",
+        }
+    },
+    advanced:{
+        cute:{
+            title:"",
+            desc:"Crochet an adorable",
+        },
+        spooky:{
+            title:"",
+            desc:"Crochet a very spooky ",
+        },
+        both:{
+            title:"",
+            desc:"Crochet a spooky yet cute ",
+        }
+    }
+};
+
+
+/* Button functionality */
+
+$("#beginnerBtn").click(function (){
+    answers.level="beginner";
+
+    $("#question1").hide();
+    $("#question2").show();
+});
+
+$("#intermBtn").click(function (){
+    answers.level="intermediate";
+
+    $("#question1").hide();
+    $("#question2").show();
+});
+
+$("#advBtn").click(function (){
+    answers.level="advanced";
+
+    $("#question1").hide();
+    $("#question2").show();
+});
+
+$("#cuteBtn").click(function (){
+    answers.category="cute";
+
+    $("#question2").hide();
+    showResult();
+});
+
+$("#spookyBtn").click(function (){
+    answers.category="spooky";
+
+    $("#question2").hide();
+    showResult();
+});
+
+$("#bothBtn").click(function (){
+    answers.category="both";
+
+    $("#question2").hide();
+    showResult();
+});
+
+/*showResult(){
+    
+}*/
