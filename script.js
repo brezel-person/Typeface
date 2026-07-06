@@ -91,7 +91,7 @@ const results = {
     },
     intermediate:{
         cute:{
-            title:"Avocada Amigurumi",
+            title:"Avocado Amigurumi",
             desc:"Crochet an adorable avocado plushie or pillow!"
         },
         spooky:{
@@ -99,22 +99,22 @@ const results = {
             desc:"Crochet a very spooky zombie!",
         },
         both:{
-            title:"",
-            desc:"Crochet a spooky yet cute  ",
+            title:"Giant Blanket!",
+            desc:"Crochet a spooky yet cute blanket. Make it by stitching together granny-squares themed around flowers, ghosts, and spiders!",
         }
     },
     advanced:{
         cute:{
-            title:"",
-            desc:"Crochet an adorable",
+            title:"(Realistic) Potted Plant",
+            desc:"Crochet an adorable plant companion for your room! Sooo cutee!!",
         },
         spooky:{
-            title:"",
-            desc:"Crochet a very spooky ",
+            title:"Giant Spider Amigurumi",
+            desc:"Crochet a very spooky spider! Waah",
         },
         both:{
-            title:"",
-            desc:"Crochet a spooky yet cute ",
+            title:"(Realistic) Black Cat",
+            desc:"Crochet a spooky yet cutesy black cat!",
         }
     }
 };
@@ -164,6 +164,11 @@ $("#bothBtn").click(function (){
     showResult();
 });
 
-/*showResult(){
-    
-}*/
+function showResult(){
+    let project = results[answers.level][answers.category];
+
+    $("#projectName").text(project.title);
+    $("#projectDesc").text(project.desc);
+
+    $("#projResults").show();
+}

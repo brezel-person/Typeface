@@ -243,6 +243,9 @@ p.project{
 
 
 /* ***** Scary-Quiz Page! <3 ***** */
+.white-page{
+    background-color:ghostwhite;
+}
 .scary-page{
     background-color: black;
 }
@@ -281,6 +284,50 @@ p.scaryTxt{
     color: red;
     font-size: 25pt;
     margin: 0 10%;
+}
+
+/* Scary quiz questions */
+.accordion-buttonQ{
+    background-color:whitesmoke !important;
+    color: red !important;
+    font-family: "scary-font", serif;
+
+}
+
+.accordion-buttonQ:not(.collapsed){
+    font-family: "scary-font", serif;
+    background-color: red !important;
+    color:whitesmoke !important;
+
+}
+
+.accordion-bodyQ{
+    color:whitesmoke !important;
+    background-color: red !important;
+    font-family: "scary-font", serif;
+}
+
+
+/* Scary quiz answers */
+
+.accordion-buttonA{
+    background-color:red !important;
+    color: whitesmoke !important;
+    font-family: "scary-font", serif;
+
+}
+
+.accordion-buttonA:not(.collapsed){
+    font-family: "scary-font", serif;
+    background-color: whitesmoke !important;
+    color:red !important;
+
+}
+
+.accordion-bodyA{
+    background-color: whitesmoke !important;
+    font-family: "scary-font", serif !important;
+    color: red !important;
 }
 
 
