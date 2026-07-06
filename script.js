@@ -10,7 +10,7 @@ let quizNum;
 /* Home Page & back to home page functionality */
 if(homebtn){
     homebtn.addEventListener("click", function(){
-        window.location.href="main.html";
+        window.location.href="index.html";
     });
 }
 
