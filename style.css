@@ -299,6 +299,7 @@ p.scaryTxt{
     background-color:whitesmoke !important;
     color: red !important;
     font-family: "scary-font", serif;
+    font-size: x-large;
 
 }
 
@@ -306,6 +307,7 @@ p.scaryTxt{
     font-family: "scary-font", serif;
     background-color: red !important;
     color:whitesmoke !important;
+    font-size: x-large;
 
 }
 
@@ -313,6 +315,7 @@ p.scaryTxt{
     color:whitesmoke !important;
     background-color: red !important;
     font-family: "scary-font", serif;
+    font-size: x-large;
 }
 
 
@@ -322,13 +325,14 @@ p.scaryTxt{
     background-color:red !important;
     color: whitesmoke !important;
     font-family: "scary-font", serif;
-
+    font-size: x-large;
 }
 
 .accordion-buttonA:not(.collapsed){
     font-family: "scary-font", serif;
     background-color: whitesmoke !important;
     color:red !important;
+    font-size: x-large;
 
 }
 
@@ -336,6 +340,7 @@ p.scaryTxt{
     background-color: whitesmoke !important;
     font-family: "scary-font", serif !important;
     color: red !important;
+    font-size: x-large;
 }
 
 
