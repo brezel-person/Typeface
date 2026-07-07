@@ -24,7 +24,7 @@ and I think it may fit better with the scary quiz. Also added a button with a mo
 
 Worked on JS for the "quiz" page, made an object to store the info. 
 
-11:30 - ?? hour: finally made the "quiz" work and give a unique answer based off of each of the choices. YAY!!
+11:30 hour - end: finally made the "quiz" work and give a unique answer based off of each of the choices. YAY!!
 Filled out accordions for "seasonal" page with crochet recommendations. I had to re-write and edit some of the CSS to customize the accordions on the "scaryquiz" page b/c I had edited the styling for the previous page by styling the actual bootstrap class, so I had to make a new class and apply it to every part of the two accordions I made. It was challenging because of the confusing formatting (even though I indented it properly), and needing to replace or add in names that look similar to each other accross the code.
 
 Added and stylized accordion for the scary quiz. Finished!
