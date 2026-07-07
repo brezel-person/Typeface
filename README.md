@@ -1,6 +1,11 @@
 # Typeface
 Projects for the Typeface Hack Club program.
 
+Description:
+Crochet-themed website, with quizzes, crochet ideas, an article, and home page.
+
+
+
 Note: I didn't realize we had to write these commits as we go, so I'm going off of my memory as best I can for the first two.
 
 1-3 hour: figuring out html and css syntax, trying to make css work with the html correctly, figuring out how to get the font to show up -- had an issue with that; I followed the tutorial but the font still didn't show up, so I spent some time figuring that out -- I. Around the third or second hour I moved onto adding an image and buttons, I also figured out how to add a border to the image (I struggled with getting that to work because I was trying to use the margin as the border at first), and customize the buttons, add text to them, align them nicely to the center -- I had to research how to do that, and learned how to use "div" to make them nicely arranged.
