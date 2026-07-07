@@ -29,6 +29,8 @@ Filled out accordions for "seasonal" page with crochet recommendations. I had to
 
 Added and stylized accordion for the scary quiz. Finished!
 
+Added images to "seasonal crochet" page.
+
 
 What I've learned:
 - how to use CSS, HTML, JS together (I took some CS classes in school some time ago involving them in isolation, but I re-learned the syntax and learned for the first time how to use them/connect them with each other) 

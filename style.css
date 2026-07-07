@@ -142,10 +142,16 @@ h1.seasonalTxt{
     font-family: "friendly-font", serif;
 }
 
+.seasonalImg{
+    width: 30%;
+    height: auto;
+}
+
 .accordion-button{
     background-color:lightpink !important;
     color: darkmagenta !important;
     font-family: "friendly-font", serif;
+    font-size: x-large;
 
 }
 
@@ -153,6 +159,7 @@ h1.seasonalTxt{
     font-family: "easy-font", serif;
     background-color: darkmagenta !important;
     color:lightpink !important;
+    font-size: x-large;
 
 }
 
@@ -160,6 +167,7 @@ h1.seasonalTxt{
     color:lightpink !important;
     background-color: darkmagenta !important;
     font-family: "easy-font", serif;
+    font-size: x-large;
 }
 
 
